@@ -1,0 +1,5 @@
+{
+  "extends": "@sanity/eslint-config-studio",
+  // add  below code to resolve this" Cannot find module '@babel/preset-env'"
+  "eslint.workingDirectories": ["./web", "./studio"]
+}
